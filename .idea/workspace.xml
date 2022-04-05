@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69dcdd8c-8e81-4032-9f24-1465c770920b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsRover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsRoverApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarsRoverAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRoverAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/earlyobject/marsroverapi/MarsRoverApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/earlyobject/marsroverapi/MarsRoverApiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/earlyobject/MarsRoverApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/earlyobject/MarsRoverApiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +74,7 @@
       <recent name="com.earlyobject" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverApiTest.smallTest">
-    <configuration name="HomeControllerTest.smallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRoverAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.earlyobject.response.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.earlyobject" />
-      <option name="MAIN_CLASS_NAME" value="com.earlyobject.HomeControllerTest" />
-      <option name="METHOD_NAME" value="smallTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MarsRoverApiApplication">
     <configuration name="MarsRoverApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRoverAPI" />
       <extension name="coverage">
@@ -136,15 +115,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HomeControllerTest.smallTest" />
-      <item itemvalue="Spring Boot.MarsRoverApiApplication" />
       <item itemvalue="JUnit.MarsRoverApiTest.smallTest" />
       <item itemvalue="JUnit.MarsRoverApiApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.MarsRoverApiApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MarsRoverApiTest.smallTest" />
-        <item itemvalue="JUnit.HomeControllerTest.smallTest" />
         <item itemvalue="JUnit.MarsRoverApiApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -159,7 +136,7 @@
       <updated>1648999816664</updated>
       <workItem from="1648999820259" duration="1358000" />
       <workItem from="1649001305696" duration="13112000" />
-      <workItem from="1649108713601" duration="3671000" />
+      <workItem from="1649108713601" duration="6647000" />
     </task>
     <servers />
   </component>
