@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69dcdd8c-8e81-4032-9f24-1465c770920b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsRover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsRoverApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarsRoverAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MarsRoverAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/earlyobject/marsroverapi/MarsRoverApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/earlyobject/MarsRoverApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/earlyobject/marsroverapi/MarsRoverApiApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="27IFi4zKbKWArPRLjTK4bspYpwp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.earlyobject.response" />
+      <recent name="com.earlyobject" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.earlyobject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MarsRoverApiTest.smallTest">
+    <configuration name="HomeControllerTest.smallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earlyobject.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.earlyobject" />
+      <option name="MAIN_CLASS_NAME" value="com.earlyobject.HomeControllerTest" />
+      <option name="METHOD_NAME" value="smallTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earlyobject.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.earlyobject" />
+      <option name="MAIN_CLASS_NAME" value="com.earlyobject.MarsRoverApiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverApiTest.smallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRoverAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earlyobject.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.earlyobject" />
+      <option name="MAIN_CLASS_NAME" value="com.earlyobject.MarsRoverApiTest" />
+      <option name="METHOD_NAME" value="smallTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsRoverApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MarsRoverAPI" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earlyobject.MarsRoverApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HomeControllerTest.smallTest" />
+      <item itemvalue="Spring Boot.MarsRoverApiApplication" />
+      <item itemvalue="JUnit.MarsRoverApiTest.smallTest" />
+      <item itemvalue="JUnit.MarsRoverApiApplicationTests.contextLoads" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarsRoverApiTest.smallTest" />
+        <item itemvalue="JUnit.HomeControllerTest.smallTest" />
+        <item itemvalue="JUnit.MarsRoverApiApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69dcdd8c-8e81-4032-9f24-1465c770920b" name="Changes" comment="" />
+      <created>1648999816664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648999816664</updated>
+      <workItem from="1648999820259" duration="1358000" />
+      <workItem from="1649001305696" duration="13112000" />
+      <workItem from="1649108713601" duration="3671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/earlyobject/response/MarsRoverApiResponse.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MarsRoverAPI$HomeControllerTest_smallTest.ic" NAME="HomeControllerTest.smallTest Coverage Results" MODIFIED="1649074994011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.earlyobject.*</FILTER>
+    </SUITE>
+  </component>
+</project>
