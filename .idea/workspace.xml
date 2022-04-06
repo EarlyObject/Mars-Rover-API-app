@@ -135,7 +135,7 @@
       <updated>1648999816664</updated>
       <workItem from="1648999820259" duration="1358000" />
       <workItem from="1649001305696" duration="13112000" />
-      <workItem from="1649108713601" duration="8011000" />
+      <workItem from="1649108713601" duration="10124000" />
     </task>
     <servers />
   </component>
@@ -150,6 +150,10 @@
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
