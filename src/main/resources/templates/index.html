@@ -7,16 +7,19 @@
     <div class="container">
         <h2>Welcome to the Mars Rover Api Web App</h2>
 
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="margin: 1.5em 0em">
-            <input type="radio" class="btn-check" name="btnradio" id="marsApiCuriosity" autocomplete="off" checked>
-            <label class="btn btn-outline-secondary" for="marsApiCuriosity">Curiosity</label>
+        <form method="post" action="" id="frmRoverType">
+            <input type="hidden" id="marsApiRoverData", name="marsApiRoverData" value=""/>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="margin: 1.5em 0em">
+                <input type="radio" class="btn-check active" name="btnradio" id="btnradio1" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btnradio1" id="marsApiCuriosity">Curiosity</label>
 
-            <input type="radio" class="btn-check" name="btnradio" id="marsApiOpportunity" autocomplete="off">
-            <label class="btn btn-outline-secondary" for="marsApiOpportunity">Opportunity</label>
+                <input type="radio" class="btn-check active" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btnradio2" id="marsApiOpportunity">Opportunity</label>
 
-            <input type="radio" class="btn-check" name="btnradio" id="marsApiSpirit" autocomplete="off">
-            <label class="btn btn-outline-secondary" for="marsApiSpirit">Spirit</label>
-        </div>
+                <input type="radio" class="btn-check active" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btnradio3" id="marsApiSpirit">Spirit</label>
+            </div>
+        </form>
 
         <div th:each="index : ${#numbers.sequence(0, roverData.photos.size(), 4)}"  class="row" style="margin-bottom: 2em">
             <div class="col" th:if="${index < roverData.photos.size()}">

@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69dcdd8c-8e81-4032-9f24-1465c770920b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
