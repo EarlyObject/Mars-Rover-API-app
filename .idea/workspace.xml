@@ -7,11 +7,6 @@
     <list default="true" id="69dcdd8c-8e81-4032-9f24-1465c770920b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,12 +176,6 @@
           <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/js/index.js</url>
-          <line>14</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
