@@ -8,11 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/service/MarsRoverApiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/earlyobject/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/service/MarsRoverApiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/earlyobject/web/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,12 +150,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="42" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="32" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="24" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JS added to event buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

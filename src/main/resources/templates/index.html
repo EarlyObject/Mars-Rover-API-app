@@ -7,17 +7,17 @@
     <div class="container">
         <h2>Welcome to the Mars Rover Api Web App</h2>
 
-        <form method="post" action="" id="frmRoverType">
+        <form method="get" action="" id="frmRoverType">
             <input type="hidden" id="marsApiRoverData", name="marsApiRoverData" value=""/>
             <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="margin: 1.5em 0em">
-                <input type="radio" class="btn-check active" name="btnradio" id="btnradio1" autocomplete="off">
-                <label class="btn btn-outline-secondary" for="btnradio1" id="marsApiCuriosity">Curiosity</label>
+                <input type="checkbox" class="btn-check" id="btn-check" checked autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check" id="marsApiCuriosity">Curiosity</label>
 
-                <input type="radio" class="btn-check active" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-secondary" for="btnradio2" id="marsApiOpportunity">Opportunity</label>
+                <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-2" id="marsApiOpportunity">Opportunity</label>
 
-                <input type="radio" class="btn-check active" name="btnradio" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-secondary" for="btnradio3" id="marsApiSpirit">Spirit</label>
+                <input type="checkbox" class="btn-check" id="btn-check-3" checked autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-3" id="marsApiSpirit">Spirit</label>
             </div>
         </form>
 
