@@ -18,7 +18,7 @@ public class HomeController {
     @GetMapping("/")
     public String getHomeView (ModelMap model, @RequestParam(required = false) String marsApiRoverData) {
         if (StringUtils.isEmpty(marsApiRoverData)) {
-            marsApiRoverData = "opportunity";
+            marsApiRoverData = "curiosity";
         }
         MarsRoverApiResponse roverData = roverService.getRoverData(marsApiRoverData);
         model.put("roverData", roverData);

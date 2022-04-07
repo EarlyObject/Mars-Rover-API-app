@@ -10,7 +10,6 @@ public class MarsRoverApiService {
 
     private static final String API_KEY = "DEMO_KEY";
 
-
     public MarsRoverApiResponse getRoverData(String roverType) {
 
         RestTemplate rt = new RestTemplate();
