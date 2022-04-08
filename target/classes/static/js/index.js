@@ -14,7 +14,6 @@ let element;
 element = document.getElementById("marsApi" + marsRoverType);
 element.classList.remove("btn-outline-secondary");
 element.classList.add("btn-outline-primary");
-//element.setAttribute("btnradio", "checked");
 element.checked = true;
 
 
