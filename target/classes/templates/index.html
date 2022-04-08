@@ -20,11 +20,83 @@
                 <label class="btn btn-outline-secondary" for="marsApiSpirit" >Spirit</label>
             </div>
 
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" th:field="${homeDto.defaultCheck1}" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Default checkbox
-                </label>
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraFHAZ}" id="cameraFHAZ">
+                        <label class="form-check-label" for="cameraFHAZ">
+                            Front Hazard Avoidance Camera
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraRHAZ}" id="cameraRHAZ">
+                        <label class="form-check-label" for="cameraRHAZ">
+                            Rear Hazard Avoidance Camera
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraMAST}" id="cameraMAST">
+                        <label class="form-check-label" for="cameraMAST">
+                            Mast Camera
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraCHEMCAM}" id="cameraCHEMCAM">
+                        <label class="form-check-label" for="cameraCHEMCAM">
+                            Chemistry and Camera Complex
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraMAHLI}" id="cameraMAHLI">
+                        <label class="form-check-label" for="cameraMAHLI">
+                            Mars Hand Lens Imager
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraMARDI}" id="cameraMARDI">
+                        <label class="form-check-label" for="cameraMARDI">
+                            Mars Descent Imager
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraNAVCAM}" id="cameraNAVCAM">
+                        <label class="form-check-label" for="cameraNAVCAM">
+                            Navigation Camera
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraPANCAM}" id="cameraPANCAM">
+                        <label class="form-check-label" for="cameraPANCAM">
+                            Panoramic Camera
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="${homeDto.cameraMINITES}" id="cameraMINITES">
+                        <label class="form-check-label" for="cameraMINITES">
+                            Miniature Thermal Emission Spectrometer (Mini-TES)
+                        </label>
+                    </div>
+                </div>
             </div>
 
             <div class="form-group" style="margin: 1.5em 0em">
