@@ -9,6 +9,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.lang.reflect.InvocationTargetException;
+
 @Controller
 public class HomeController {
 
@@ -16,7 +18,7 @@ public class HomeController {
     private MarsRoverApiService roverService;
 
     @GetMapping("/")
-    public String getHomeView (ModelMap model, HomeDto homeDto) {
+    public String getHomeView (ModelMap model, HomeDto homeDto) throws InvocationTargetException, IllegalAccessException {
         if (StringUtils.isEmpty(homeDto.getMarsApiRoverData())) {
             homeDto.setMarsApiRoverData("Curiosity");
         }
