@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -54,6 +55,15 @@ public class HomeController {
             roverService.save(defaultHomeDto);
         }
         return "index";
+    }
+
+    @GetMapping("/savedPreferences")
+    @ResponseBody
+    public HomeDto getSavedPreferences(Long userId) {
+        if (userId != null)
+            return roverService.findByUserId(userId);
+        else
+            return getDefaultHomeDto(userId);
     }
 
     private HomeDto getDefaultHomeDto(Long userId) {

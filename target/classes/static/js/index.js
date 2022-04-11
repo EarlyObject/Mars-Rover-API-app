@@ -34,9 +34,11 @@ function getMarsRoverType()
 
     userId = urlParams.get('userId');
     if (userId == null || userId === '') {
-        userId = localStorage.getItem(userId);
+        userId = localStorage.getItem('userId');
         if (userId == null) {
             document.getElementById('createUser').value = true;
+        } else {
+            window.location.href = '/?userId=' + userId;
         }
     }
     if (userId != null && userId !== '') {
