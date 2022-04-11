@@ -18,19 +18,20 @@ public class HomeController {
     private MarsRoverApiService roverService;
 
     @GetMapping("/")
-    public String getHomeView (ModelMap model, Long userId) throws InvocationTargetException,
+    public String getHomeView (ModelMap model, Long userId, Boolean createUser) throws InvocationTargetException,
             IllegalAccessException {
 
-        HomeDto homeDto;
-        if (userId == null) {
-            homeDto = new HomeDto();
-            homeDto.setMarsSol(2);
-            homeDto.setCameraNAVCAM(true);
-            homeDto.setMarsApiRoverData("Curiosity");
+        HomeDto homeDto = getDefaultHomeDto(userId);
+        if (Boolean.TRUE.equals(createUser) && userId == null) {
+            homeDto = roverService.save(homeDto);
         } else {
             homeDto = roverService.findByUserId(userId);
+            if (homeDto == null) {
+                homeDto = getDefaultHomeDto(userId);
+            }
         }
-      /*  if (StringUtils.isEmpty(homeDto.getMarsApiRoverData())) {
+
+       /* if (StringUtils.isEmpty(homeDto.getMarsApiRoverData())) {
             homeDto.setMarsApiRoverData("Curiosity");
         }
         if (homeDto.getMarsSol() == null)
@@ -48,14 +49,26 @@ public class HomeController {
         model.put("roverData", roverData);
         model.put("homeDto", homeDto);
         model.put("validCameras", roverService.getValidCameras().get(homeDto.getMarsApiRoverData()));
-
+        if (!Boolean.TRUE.equals(homeDto.getRememberPreferences()) && userId != null) {
+            HomeDto defaultHomeDto = getDefaultHomeDto(userId);
+            roverService.save(defaultHomeDto);
+        }
         return "index";
+    }
+
+    private HomeDto getDefaultHomeDto(Long userId) {
+        HomeDto homeDto = new HomeDto();
+        homeDto.setUserId(userId);
+        homeDto.setMarsApiRoverData("Curiosity");
+        homeDto.setMarsSol(2);
+        homeDto.setCameraNAVCAM(true);
+        return homeDto;
     }
 
     @PostMapping("/")
     public String postHomeView(HomeDto homeDto) {
         homeDto = roverService.save(homeDto);
-        return "redirect:/?userID=" + homeDto.getUserId();
+        return "redirect:/?userId=" + homeDto.getUserId();
     }
 
 }

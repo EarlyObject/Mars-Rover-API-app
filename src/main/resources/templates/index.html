@@ -10,6 +10,8 @@
         <form method="post" action="" id="frmRoverType">
             <input type="hidden" th:field="${homeDto.marsApiRoverData}"/>
             <input type="hidden" th:field="${homeDto.userId}"/>
+            <input type="hidden" id="createUser" name="createUser" value="false"/>
+
             <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="margin: 1.5em 0em">
                 <input type="radio" class="btn-check" name="btnradio" id="marsApiCuriosity" autocomplete="off" checked>
                 <label class="btn btn-outline-secondary" for="marsApiCuriosity">Curiosity</label>
@@ -114,8 +116,6 @@
                     <label for="rememberPreferences">Remember Preferences</label>
                 </div>
             </div>
-
-
         </form>
 
         <div th:each="index : ${#numbers.sequence(0, roverData.photos.size(), 4)}"  class="row" style="margin-bottom: 2em">
