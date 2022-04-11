@@ -69,7 +69,12 @@ public class MarsRoverApiService {
         return validCameras;
     }
 
-    public void save(HomeDto homeDto) {
+    public HomeDto save(HomeDto homeDto) {
         preferencesRepo.save(homeDto);
+        return homeDto;
+    }
+
+    public HomeDto findByUserId(Long userId) {
+        return (preferencesRepo.findByUserId(userId));
     }
 }

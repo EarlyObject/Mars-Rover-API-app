@@ -8,7 +8,6 @@ public class HomeDto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private Long userId;
     @Column(length = 20)
     private String marsApiRoverData;
@@ -23,14 +22,6 @@ public class HomeDto {
     private Boolean cameraPANCAM;
     private Boolean cameraMINITES;
     private Boolean rememberPreferences;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Long getUserId() {
         return userId;
