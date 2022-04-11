@@ -23,7 +23,16 @@ public class HomeController {
             homeDto.setMarsApiRoverData("Curiosity");
         }
         if (homeDto.getMarsSol() == null)
-            homeDto.setMarsSol(1);
+            homeDto.setMarsSol(2);
+        if (homeDto.getCameraFHAZ() == null
+            && homeDto.getCameraRHAZ() == null
+            && homeDto.getCameraRHAZ() == null
+            && homeDto.getCameraMAST() == null
+            && homeDto.getCameraCHEMCAM() == null
+            && homeDto.getCameraMAHLI() == null
+            && homeDto.getCameraMARDI() == null
+            && homeDto.getCameraNAVCAM() == null)
+                homeDto.setCameraNAVCAM(true);
         MarsRoverApiResponse roverData = roverService.getRoverData(homeDto);
         model.put("roverData", roverData);
         model.put("homeDto", homeDto);

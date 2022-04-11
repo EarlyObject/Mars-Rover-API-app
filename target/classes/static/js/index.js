@@ -28,6 +28,6 @@ function getMarsRoverType()
         marsRoverType = "Curiosity";
 
     marsSol = urlParams.get('marsSol');
-    if (marsSol == null)
-        marsSol = 1;
+    if (marsSol == null || marsSol === "" || marsSol < 0)
+        marsSol = 2;
 }
