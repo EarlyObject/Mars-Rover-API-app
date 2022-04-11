@@ -25,11 +25,11 @@ function getMarsRoverType()
 {
     let urlParams = new URLSearchParams(window.location.search);
     marsRoverType = urlParams.get('marsApiRoverData');
-    if (marsRoverType == null || marsRoverType == "")
+    if (marsRoverType == null || marsRoverType === '')
         marsRoverType = "Curiosity";
 
     marsSol = urlParams.get('marsSol');
-    if (marsSol == null || marsSol === "" || marsSol < 0)
+    if (marsSol == null || marsSol === '' || marsSol < 0)
         marsSol = 2;
 
     userId = urlParams.get('userId');
