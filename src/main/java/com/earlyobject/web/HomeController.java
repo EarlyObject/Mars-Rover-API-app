@@ -1,6 +1,7 @@
 package com.earlyobject.web;
 
 import com.earlyobject.dto.HomeDto;
+import com.earlyobject.repository.PreferencesRepository;
 import com.earlyobject.response.MarsRoverApiResponse;
 import com.earlyobject.service.MarsRoverApiService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,6 +45,8 @@ public class HomeController {
 
     @PostMapping("/")
     public String postHomeView(HomeDto homeDto) {
+        roverService.save(homeDto);
+
         System.out.println(homeDto);
         return "redirect:/";
     }

@@ -1,8 +1,10 @@
 package com.earlyobject.service;
 
 import com.earlyobject.dto.HomeDto;
+import com.earlyobject.repository.PreferencesRepository;
 import com.earlyobject.response.MarsPhoto;
 import com.earlyobject.response.MarsRoverApiResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,6 +14,9 @@ import java.util.*;
 
 @Service
 public class MarsRoverApiService {
+
+    @Autowired
+    private PreferencesRepository preferencesRepo;
 
     private static final String API_KEY = "DEMO_KEY";
 
@@ -62,5 +67,9 @@ public class MarsRoverApiService {
 
     public Map<String, List<String>> getValidCameras() {
         return validCameras;
+    }
+
+    public void save(HomeDto homeDto) {
+        preferencesRepo.save(homeDto);
     }
 }
