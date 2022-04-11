@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public class HomeDto {
 
+    private Long userId;
     private String marsApiRoverData;
     private Integer marsSol;
     private Boolean cameraFHAZ;
@@ -16,6 +17,14 @@ public class HomeDto {
     private Boolean cameraPANCAM;
     private Boolean cameraMINITES;
     private Boolean rememberPreferences;
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
 
     public String getMarsApiRoverData() {
         return marsApiRoverData;

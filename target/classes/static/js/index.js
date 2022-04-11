@@ -9,6 +9,7 @@ marsApiButtons.forEach(button => button.addEventListener("click", function (){
 }))
 let marsRoverType;
 let marsSol;
+let userId;
 getMarsRoverType();
 let element;
 element = document.getElementById("marsApi" + marsRoverType);
@@ -30,4 +31,11 @@ function getMarsRoverType()
     marsSol = urlParams.get('marsSol');
     if (marsSol == null || marsSol === "" || marsSol < 0)
         marsSol = 2;
+
+    userId = urlParams.get('userId');
+    if (userId == null || userId === '') {
+        userId = localStorage.getItem(userId);
+    } else {
+        document.getElementById('userId').value = userId;
+    }
 }
